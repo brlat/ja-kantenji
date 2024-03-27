@@ -10,14 +10,14 @@
 #+dots: 8
 #+direction:forward
 
-#-copyright: 2021, Kensaku Y.
-#-copyright: 2024, added some Kanji from xxx
-#-license: LGPLv2.1
-#-author: Kensaku Y. <kanjibrailles@gmail.com>
-#-maintainer: Kensaku Y. <kanjibrailles@gmail.com>
 
-# Copyright (C) 2021, Kensaku Y.
-# Created by Kensaku Y. <kanjibrailles@gmail.com>
+# copyright (C) 2024, Yoza Kensaku <kanjibrailles@gmail.com>
+# Copyright (C) 2024, Kiriake Masanori <seiken@rd01.net>
+
+#-license: LGPLv2.1
+#-author-name: Yoza Kensaku, Kiriake Masanori
+#-maintainer-name: Yoza Kensaku, Kiriake Masanori
+#-maintainer-email: Yoza Kensaku <kanjibrailles@gmail.com>, Kiriake Masanori <seiken@rd01.net>
 
 # This file is part of liblouis.
 #
