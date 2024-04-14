@@ -990,7 +990,7 @@ always りゅ 5-256 ryu
 always りょ 5-356 ryo
 #end Hiragana
 
-#begin Katakana
+#begin Zenkaku Katakana
 # SeiOn and DakuOn (basic characters)
 sign ア 2 a
 sign イ 23 i
@@ -1139,7 +1139,156 @@ always ミョ 5-35678
 always リャ 5-26
 always リュ 5-256
 always リョ 5-356
-#end Katakana
+#end Zenkaku Katakana
+
+# begin Hankaku Katakana
+# SeiOn and DakuOn (basic characters)
+sign ｱ 2 a
+sign ｲ 23 i
+sign ｳ 25 u
+sign ｴ 235 e
+sign ｵ 35 o
+sign ｰ 36 (prolong sound)
+#sign ｳﾞ 6-25 vu
+sign ｶ 28 ka
+sign ｷ 238 ki
+sign ｸ 258 ku
+sign ｹ 2358 ke
+sign ｺ 358 ko
+#sign ｶﾞ 6-28 ga
+#sign ｷﾞ 6-238 gi
+#sign ｸﾞ 6-258 gu
+#sign ｹﾞ 6-2358 ge
+#sign ｺﾞ 6-358 go
+sign ｻ 268 sa
+sign ｼ 2368 shi
+sign ｽ 2568 su
+sign ｾ 23568 se
+sign ｿ 3568 so
+#sign ｻﾞ 6-268 za
+#sign ｼﾞ 6-2368 ji
+#sign ｽﾞ 6-2568 zu
+#sign ｾﾞ 6-23568 ze
+#sign ｿﾞ 6-3568 zo
+sign ﾀ 267 ta
+sign ﾁ 2367 chi
+sign ﾂ 2567 tsu
+sign ﾃ 23567 te
+sign ﾄ 3567 to
+#sign ﾀﾞ 6-267 da
+#sign ﾁﾞ 6-2367 ji
+#sign ﾂﾞ 6-2567 zu
+#sign ﾃﾞ 6-23567 de
+#sign ﾄﾞ 6-3567 do
+sign ﾅ 27 na
+sign ﾆ 237 ni
+sign ﾇ 257 nu
+sign ﾈ 2357 ne
+sign ﾉ 357 no
+sign ﾊ 278 ha
+sign ﾋ 2378 hi
+sign ﾌ 2578 hu
+sign ﾍ 23578 he
+sign ﾎ 3578 ho
+#sign ﾊﾞ 6-278 ba
+#sign ﾋﾞ 6-2378 bi
+#sign ﾌﾞ 6-2578 bu
+#sign ﾍﾞ 6-23578 be
+#sign ﾎﾞ 6-3578 bo
+#sign ﾊﾟ 8-278 pa
+#sign ﾋﾟ 8-2378 pi
+#sign ﾌﾟ 8-2578 pu
+#sign ﾍﾟ 8-23578 pe
+#sign ﾎﾟ 8-3578 po
+sign ﾏ 2678 ma
+sign ﾐ 23678 mi
+sign ﾑ 25678 mu
+sign ﾒ 235678 me
+sign ﾓ 35678 mo
+sign ﾔ 57 ya
+sign ﾕ 578 yu
+sign ﾖ 567 yo
+sign ﾗ 26 ra
+sign ﾘ 236 ri
+sign ﾙ 256 ru
+sign ﾚ 2356 re
+sign ﾛ 356 ro
+sign ﾜ 7 wa
+sign ｦ 67 wo
+sign ﾝ 678 n
+
+# small Katakana characters
+sign ｧ 56-2 small a
+sign ｨ 56-23 small i
+sign ｩ 56-25 small u
+sign ｪ 56-235 small e
+sign ｫ 56-35 small o
+sign ｯ 3 small tsu
+sign ｬ 56-57 small ya
+sign ｭ 56-578 small yu
+sign ｮ 56-567 small yo
+
+# Yoon (contracted sound)
+always ｳｨ 38-23
+always ｳｪ 38-235
+always ｳｫ 38-35
+always ｳﾞｧ 368-278
+always ｳﾞｨ 368-2378
+always ｳﾞｪ 368-23578
+always ｳﾞｫ 368-3578
+always ｷｬ 5-28
+always ｷｭ 5-258
+always ｷｮ 5-358
+always ｷﾞｬ 56-28
+always ｷﾞｭ 56-258
+always ｷﾞｮ 56-358
+always ｼｬ 5-268
+always ｼｭ 5-2568
+always ｼｮ 5-3568
+always ｽｨ 5-2368
+always ｼｪ 5-23568
+always ｼﾞｬ 56-268
+always ｼﾞｭ 56-2568
+always ｼﾞｮ 56-3568
+always ｽﾞｨ 56-2368
+always ｼﾞｪ 56-23568
+always ﾁｬ 5-267
+always ﾁｭ 5-2567
+always ﾁｮ 5-3567
+always ﾁｪ 5-23567
+always ﾂｧ 38-267
+always ﾂｨ 38-2367
+always ﾂｪ 38-23567
+always ﾂｫ 38-3567
+always ﾃｨ 5-2367
+always ﾃｭ 58-2567
+always ﾄｩ 38-2567
+always ﾃﾞｨ 56-2367
+always ﾃﾞｭ 568-2567
+always ﾄﾞｩ 368-2567
+always ﾆｬ 5-27
+always ﾆｭ 5-257
+always ﾆｮ 5-357
+always ﾋｬ 5-278
+always ﾋｭ 5-2578
+always ﾋｮ 5-3578
+always ﾋﾞｬ 56-278
+always ﾋﾞｭ 56-2578
+always ﾋﾞｮ 56-3578
+always ﾋﾟｬ 58-278
+always ﾋﾟｭ 58-2578
+always ﾋﾟｮ 58-3578
+always ﾌｧ 38-278
+always ﾌｨ 38-2378
+always ﾌｪ 38-23578
+always ﾌｫ 38-3578
+always ﾐｬ 5-2678
+always ﾐｭ 5-25678
+always ﾐｮ 5-35678
+always ﾘｬ 5-26
+always ﾘｭ 5-256
+always ﾘｮ 5-356
+# end Hankaku Katakana
 
 #begin Kanji
 # JIS level1
@@ -11716,13 +11865,14 @@ sign 龜 156-56-2374568
 
 #begin character class rules
 attribute katakana アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロヮワヰヱヲンヴーヵヶァィゥェォャュョ
+attribute hankakukatakana ｱｲｳｴｵｶｶﾞｷｷﾞｸｸﾞｹｹﾞｺｺﾞｻｻﾞｼｼﾞｽｽﾞｾｾﾞｿｿﾞﾀﾀﾞﾁﾁﾞｯﾂﾂﾞﾃﾃﾞﾄﾄﾞﾅﾆﾇﾈﾉﾊﾊﾞﾊﾟﾋﾋﾞﾋﾟﾌﾌﾞﾌﾟﾍﾍﾞﾍﾟﾎﾎﾞﾎﾟﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛヮﾜヰヱｦﾝｳﾞｰヵヶｧｨｩｪｫｬｭｮ
 attribute hiragana あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらいるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽっ
 attribute alphabet abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ
 attribute loweralphabet abcdefghijklmnopqrstuvwxyzａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ
 attribute alphanum 1234567890１２３４５６７８９０abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ
 attribute upperkantenji 糸家言頁月分性口十比宿亜参丸褱巤元維繰絵紣絹縮今倉会含唖唯品唁額吟唸単古兄味雄賑有唇才克韓售噪囂嗃叶吡寥褱与写上中高首甘宙離計君絡官卒顔誰憧寮論雌説彙頒頑惰寂惨紛悟悦窃客壱完究里丼凸穴膨
 
-#begin Katakana rules
+#begin Zenkaku Katakana rules
 # Katakana characters are indicated with Katakana opening dots367 and closing dots37.
 # Some Katakana combinations cannot be properly indicated.
 # For example, after small Katakana "ァィゥェオャュョ"
@@ -11959,7 +12109,246 @@ noback context `[]%katakana @367
 noback context %katakana[]~ @37
 noback context %katakana[]!%katakana @37
 noback context !%katakana[]%katakana @367
-#end Katakana rules
+#end Zenkaku Katakana rules
+
+#begin Hankaku Katakana rules
+# Hankaku Katakana characters are indicated with Katakana opening dots58-367 and closing dots37.
+# Some Katakana combinations cannot be properly indicated.
+# For example, after small Katakana "ｧｨｩｪｵｬｭｮ"
+# because they are defined with "always".
+noback context `["ｰ"]%space @58-367-36-37
+noback context `["ｰ"]%hiragana @58-367-36-37
+
+noback context `["ｱ"]%space @58-367-2-37
+noback context `["ｲ"]%space @58-367-23-37
+noback context `["ｳ"]%space @58-367-25-37
+noback context `["ｴ"]%space @58-367-235-37
+noback context `["ｵ"]%space @58-367-35-37
+noback context `["ｶ"]%space @58-367-28-37
+noback context `["ｷ"]%space @58-367-238-37
+noback context `["ｸ"]%space @58-367-258-37
+noback context `["ｹ"]%space @58-367-2358-37
+noback context `["ｺ"]%space @58-367-358-37
+noback context `["ｶﾞ"]%space @58-367-6-28-37
+noback context `["ｷﾞ"]%space @58-367-6-238-37
+noback context `["ｸﾞ"]%space @58-367-6-258-37
+noback context `["ｹﾞ"]%space @58-367-6-2358-37
+noback context `["ｺﾞ"]%space @58-367-6-358-37
+
+noback context `["ｻ"]%space @58-367-268-37
+noback context `["ｼ"]%space @58-367-2368-37
+noback context `["ｽ"]%space @58-367-2568-37
+noback context `["ｾ"]%space @58-367-23568-37
+noback context `["ｿ"]%space @58-367-3568-37
+noback context `["ｻﾞ"]%space @58-367-6-268-37
+noback context `["ｼﾞ"]%space @58-367-6-2368-37
+noback context `["ｽﾞ"]%space @58-367-6-2568-37
+noback context `["ｾﾞ"]%space @58-367-6-23568-37
+noback context `["ｿﾞ"]%space @58-367-6-3568-37
+
+noback context `["ﾀ"]%space @58-367-267-37
+noback context `["ﾁ"]%space @58-367-258-367-37
+noback context `["ﾂ"]%space @58-367-2567-37
+noback context `["ﾃ"]%space @58-367-23567-37
+noback context `["ﾄ"]%space @58-367-3567-37
+noback context `["ﾀﾞ"]%space @58-367-6-267-37
+noback context `["ﾁﾞ"]%space @58-367-6-258-367-37
+noback context `["ﾂﾞ"]%space @58-367-6-2567-37
+noback context `["ﾃﾞ"]%space @58-367-6-23567-37
+noback context `["ﾄﾞ"]%space @58-367-6-3567-37
+
+noback context `["ﾅ"]%space @58-367-27-37
+noback context `["ﾆ"]%space @58-367-237-37
+noback context `["ﾇ"]%space @58-367-257-37
+noback context `["ﾈ"]%space @58-367-2357-37
+noback context `["ﾉ"]%space @58-367-357-37
+
+noback context `["ﾊ"]%space @58-367-278-37
+noback context `["ﾋ"]%space @58-367-2378-37
+noback context `["ﾌ"]%space @58-367-2578-37
+noback context `["ﾍ"]%space @58-367-23578-37
+noback context `["ﾎ"]%space @58-367-3578-37
+noback context `["ﾊﾞ"]%space @58-367-6-278-37
+noback context `["ﾋﾞ"]%space @58-367-6-2378-37
+noback context `["ﾌﾞ"]%space @58-367-6-2578-37
+noback context `["ﾍﾞ"]%space @58-367-6-23578-37
+noback context `["ﾎﾞ"]%space @58-367-6-3578-37
+noback context `["ﾊﾟ"]%space @58-367-8-278-37
+noback context `["ﾋﾟ"]%space @58-367-8-2378-37
+noback context `["ﾌﾟ"]%space @58-367-8-2578-37
+noback context `["ﾍﾟ"]%space @58-367-8-23578-37
+noback context `["ﾎﾟ"]%space @58-367-8-3578-37
+
+noback context `["ﾏ"]%space @58-367-2678-37
+noback context `["ﾐ"]%space @58-367-258-3678-37
+noback context `["ﾑ"]%space @58-367-25678-37
+noback context `["ﾒ"]%space @58-367-235678-37
+noback context `["ﾓ"]%space @58-367-35678-37
+
+noback context `["ﾔ"]%space @58-367-57-37
+noback context `["ﾕ"]%space @58-367-578-37
+noback context `["ﾖ"]%space @58-367-567-37
+
+noback context `["ﾗ"]%space @58-367-26-37
+noback context `["ﾘ"]%space @58-367-236-37
+noback context `["ﾙ"]%space @58-367-256-37
+noback context `["ﾚ"]%space @58-367-2356-37
+noback context `["ﾛ"]%space @58-367-356-37
+
+noback context `["ﾜ"]%space @58-367-7-37
+noback context `["ｦ"]%space @58-367-67-37
+noback context `["ﾝ"]%space @58-367-678-37
+
+noback context `["ｱ"]%hiragana @58-367-2-37
+noback context `["ｲ"]%hiragana @58-367-23-37
+noback context `["ｳ"]%hiragana @58-367-25-37
+noback context `["ｴ"]%hiragana @58-367-235-37
+noback context `["ｵ"]%hiragana @58-367-35-37
+noback context `["ｶ"]%hiragana @58-367-28-37
+noback context `["ｷ"]%hiragana @58-367-238-37
+noback context `["ｸ"]%hiragana @58-367-258-37
+noback context `["ｹ"]%hiragana @58-367-2358-37
+noback context `["ｺ"]%hiragana @58-367-358-37
+noback context `["ｶﾞ"]%hiragana @58-367-6-28-37
+noback context `["ｷﾞ"]%hiragana @58-367-6-238-37
+noback context `["ｸﾞ"]%hiragana @58-367-6-258-37
+noback context `["ｹﾞ"]%hiragana @58-367-6-2358-37
+noback context `["ｺﾞ"]%hiragana @58-367-6-358-37
+
+noback context `["ｻ"]%hiragana @58-367-268-37
+noback context `["ｼ"]%hiragana @58-367-2368-37
+noback context `["ｽ"]%hiragana @58-367-2568-37
+noback context `["ｾ"]%hiragana @58-367-23568-37
+noback context `["ｿ"]%hiragana @58-367-3568-37
+noback context `["ｻﾞ"]%hiragana @58-367-6-268-37
+noback context `["ｼﾞ"]%hiragana @58-367-6-2368-37
+noback context `["ｽﾞ"]%hiragana @58-367-6-2568-37
+noback context `["ｾﾞ"]%hiragana @58-367-6-23568-37
+noback context `["ｿﾞ"]%hiragana @58-367-6-3568-37
+
+noback context `["ﾀ"]%hiragana @58-367-267-37
+noback context `["ﾁ"]%hiragana @58-367-258-367-37
+noback context `["ﾂ"]%hiragana @58-367-2567-37
+noback context `["ﾃ"]%hiragana @58-367-23567-37
+noback context `["ﾄ"]%hiragana @58-367-3567-37
+noback context `["ﾀﾞ"]%hiragana @58-367-6-267-37
+noback context `["ﾁﾞ"]%hiragana @58-367-6-258-367-37
+noback context `["ﾂﾞ"]%hiragana @58-367-6-2567-37
+noback context `["ﾃﾞ"]%hiragana @58-367-6-23567-37
+noback context `["ﾄﾞ"]%hiragana @58-367-6-3567-37
+
+noback context `["ﾅ"]%hiragana @58-367-27-37
+noback context `["ﾆ"]%hiragana @58-367-237-37
+noback context `["ﾇ"]%hiragana @58-367-257-37
+noback context `["ﾈ"]%hiragana @58-367-2357-37
+noback context `["ﾉ"]%hiragana @58-367-357-37
+
+noback context `["ﾊ"]%hiragana @58-367-278-37
+noback context `["ﾋ"]%hiragana @58-367-2378-37
+noback context `["ﾌ"]%hiragana @58-367-2578-37
+noback context `["ﾍ"]%hiragana @58-367-23578-37
+noback context `["ﾎ"]%hiragana @58-367-3578-37
+noback context `["ﾊﾞ"]%hiragana @58-367-6-278-37
+noback context `["ﾋﾞ"]%hiragana @58-367-6-2378-37
+noback context `["ﾌﾞ"]%hiragana @58-367-6-2578-37
+noback context `["ﾍﾞ"]%hiragana @58-367-6-23578-37
+noback context `["ﾎﾞ"]%hiragana @58-367-6-3578-37
+noback context `["ﾊﾟ"]%hiragana @58-367-8-278-37
+noback context `["ﾋﾟ"]%hiragana @58-367-8-2378-37
+noback context `["ﾌﾟ"]%hiragana @58-367-8-2578-37
+noback context `["ﾍﾟ"]%hiragana @58-367-8-23578-37
+noback context `["ﾎﾟ"]%hiragana @58-367-8-3578-37
+
+noback context `["ﾏ"]%hiragana @58-367-2678-37
+noback context `["ﾐ"]%hiragana @58-367-258-3678-37
+noback context `["ﾑ"]%hiragana @58-367-25678-37
+noback context `["ﾒ"]%hiragana @58-367-235678-37
+noback context `["ﾓ"]%hiragana @58-367-35678-37
+
+noback context `["ﾔ"]%hiragana @58-367-57-37
+noback context `["ﾕ"]%hiragana @58-367-578-37
+noback context `["ﾖ"]%hiragana @58-367-567-37
+
+noback context `["ﾗ"]%hiragana @58-367-26-37
+noback context `["ﾘ"]%hiragana @58-367-236-37
+noback context `["ﾙ"]%hiragana @58-367-256-37
+noback context `["ﾚ"]%hiragana @58-367-2356-37
+noback context `["ﾛ"]%hiragana @58-367-356-37
+
+noback context `["ﾜ"]%hiragana @58-367-7-37
+noback context `["ｦ"]%hiragana @58-367-67-37
+noback context `["ﾝ"]%hiragana @58-367-678-37
+
+noback context ["ｳｨ"]%hiragana @38-23-37
+noback context ["ｳｪ"]%hiragana @38-235-37
+noback context ["ｳｫ"]%hiragana @38-35-37
+noback context ["ｷｬ"]%hiragana @5-28-37
+noback context ["ｷｭ"]%hiragana @5-258-37
+noback context ["ｷｮ"]%hiragana @5-358-37
+noback context ["ｷﾞｬ"]%hiragana @56-28-37
+noback context ["ｷﾞｭ"]%hiragana @56-258-37
+noback context ["ｷﾞｮ"]%hiragana @56-358-37
+noback context ["ｼｬ"]%hiragana @5-268-37
+noback context ["ｼｭ"]%hiragana @5-2568-37
+noback context ["ｼｮ"]%hiragana @5-3568-37
+noback context ["ｼﾞｬ"]%hiragana @56-268-37
+noback context ["ｼﾞｭ"]%hiragana @56-2568-37
+noback context ["ｼﾞｮ"]%hiragana @56-3568-37
+noback context ["ｼｪ"]%hiragana @5-23568-37
+noback context ["ｼﾞｪ"]%hiragana @56-23568-37
+noback context ["ｼｬ"]~ @5-268-37
+noback context ["ｼｭ"]~ @5-2568-37
+noback context ["ｼｮ"]~ @5-3568-37
+noback context ["ｼﾞｬ"]~ @56-268-37
+noback context ["ｼﾞｭ"]~ @56-2568-37
+noback context ["ｼﾞｮ"]~ @56-3568-37
+noback context ["ｼｪ"]~ @5-23568-37
+noback context ["ｼﾞｪ"]~ @56-23568-37
+
+noback context ["ﾁｬ"]%hiragana @5-267-37
+noback context ["ﾁｭ"]%hiragana @5-2567-37
+noback context ["ﾁｮ"]%hiragana @5-3567-37
+noback context ["ﾁｪ"]%hiragana @5-23567-37
+noback context ["ﾃｨ"]%hiragana @5-258-367-37
+noback context ["ﾃﾞｨ"]%hiragana @56-258-367-37
+noback context ["ﾄｩ"]%hiragana @38-2567-37
+noback context ["ﾄﾞｩ"]%hiragana @368-2567-37
+noback context ["ﾁｬ"]~ @5-267-37
+noback context ["ﾁｭ"]~ @5-2567-37
+noback context ["ﾁｮ"]~ @5-3567-37
+noback context ["ﾁｪ"]~ @5-23567-37
+noback context ["ﾃｨ"]~ @5-258-367-37
+noback context ["ﾃﾞｨ"]~ @56-258-367-37
+noback context ["ﾄｩ"]~ @38-2567-37
+noback context ["ﾄﾞｩ"]~ @368-2567-37
+
+noback context ["ﾆｬ"]%hiragana @5-27-37
+noback context ["ﾆｭ"]%hiragana @5-257-37
+noback context ["ﾆｮ"]%hiragana @5-357-37
+noback context ["ﾆｬ"]~ @5-27-37
+noback context ["ﾆｭ"]~ @5-257-37
+noback context ["ﾆｮ"]~ @5-357-37
+
+noback context ["ﾋｬ"]%hiragana @5-278-37
+noback context ["ﾋｭ"]%hiragana @5-2578-37
+noback context ["ﾋｮ"]%hiragana @5-3578-37
+noback context ["ﾋｬ"]~ @5-278-37
+noback context ["ﾋｭ"]~ @5-2578-37
+noback context ["ﾋｮ"]~ @5-3578-37
+
+noback context `["ﾌｧ"]~ @38-278-37
+noback context ["ﾌｧ"]%hiragana @38-278-37
+noback context `["ﾌｨ"]~ @38-2378-37
+noback context ["ﾌｨ"]%hiragana @38-2378-37
+
+noback context `["ﾌｫ"]~ @38-3578-37
+noback context ["ﾌｫ"]%hiragana @38-3578-37
+
+noback context `[]%hankakukatakana @58-367
+noback context %hankakukatakana[]~ @37
+noback context %hankakukatakana[]!%hankakukatakana @37
+noback context !%hankakukatakana[]%hankakukatakana @58-367
+#end Hankaku Katakana rules
 
 #begin alphabet rules
 noback context %loweralphabet[]%katakana @0
