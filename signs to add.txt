@@ -1,0 +1,21 @@
+# begin misc symbols
+sign ⦅ 6-3678 left white parenthesis
+sign ⦆ 3678-3 right white parenthesis
+# end misc symbols
+
+# begin IPA(International Phonetic Alphabet)
+sign ː 36 colon
+sign ə 38 shwa
+sign ǽ 568-258
+sign ʌ́ 568-578 turned v with acute accent
+sign ɑ́ 568-28 alpha with acute accent
+sign è 56-26 e with grave accent
+sign ɔ́ 568-238 open o with acute accent
+sign ó 568-267 o with acute accent
+sign ʃ 268 esh
+sign ʒ 3578 ezh
+sign θ 2568 voiceless th sound
+sign ð 23568 voiced th sound
+sign ŋ 2358 eng
+# end IPA(International Phonetic Alphabet)
+
