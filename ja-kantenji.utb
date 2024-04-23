@@ -433,7 +433,7 @@ sign \x00b2 68-76-7568-23 ²
 sign \x00b3 68-76-7568-25 ³ 
 sign \x00b4 56-75 ´ 
 sign \x00b5 58-275 µ 
-sign \x00b7 5-28 · 
+#sign \x00b7 5-28 · 
 sign \x00bc 7568-2-75-7568-256 ¼ 
 sign \x00bd 7568-2-75-7568-23 ½
 sign \x00be 7568-25-75-7568-256 ¾
@@ -11715,6 +11715,9 @@ sign 龜 156-56-2374568
 # begin misc symbols
 sign ⦅ 6-3678 left white parenthesis
 sign ⦆ 3678-3 right white parenthesis
+sign ⚷ 0-67-67-0 chiron
+sign ⚸ 0-67-67-0
+sign · 6-0 middle dot
 # end misc symbols
 
 # begin IPA(International Phonetic Alphabet)
@@ -11731,6 +11734,7 @@ sign ʒ 3578 ezh
 sign θ 2568 voiceless th sound
 sign ð 23568 voiced th sound
 sign ŋ 2358 eng
+always t̬ 3567
 # end IPA(International Phonetic Alphabet)
 
 #begin character class rules
