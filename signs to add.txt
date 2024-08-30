@@ -1,21 +1,72 @@
 # begin misc symbols
+# parentheses and dots
 sign ⦅ 6-3678 left white parenthesis
 sign ⦆ 3678-3 right white parenthesis
-# end misc symbols
+sign \x3008 68-3678 〈 open paren
+sign \x3009 3678-37 〉 close paren
+sign ⚷ 0-67-67-0 chiron
+sign ⚸ 0-67-67-0
+sign · 6-0 middle dot
+# triangles and arrows
+sign \x14b1 36-36-267 ▲ filled
+sign \x14b2 36-36-267 △ regular
+sign \x25b3 36-36-267 △ triangle
+sign \x25bd 36-36-267 ▽ triangle
+sign \x25b2 36-36-267 ▲ triangle
+sign \x2234 36-36-267 ∴ therefore
+sign \x2235 36-36-267 ∵ because
+sign 🔺 36-36-267 🔺 triangle
+sign 🔻 36-36-267 🔻 triangle
+sign 🔼 36-36-267 🔼 triangle
+sign 🔽 36-36-267 🔽 triangle
+sign \x2023 36-36-267 ‣ triangle
+sign \x2207 36-36-267 ∇ triangle
+sign \x25b4 36-36-267 ▴ triangle
+sign \x25b5 36-36-267 ▵ triangle
+sign \x25b7 36-36-267 ▷ triangle
+sign \x25ba 36-36-267 ► triangle
+sign \x25bb 36-36-267 ▻ triangle
+sign \x25c0 358-36-36 ◀ left triangle
+sign \x25c1 358-36-36 ◁ left triangle
+sign \x25b8 36-36-267 ▸ triangle
+sign \x25b9 36-36-267 ▹ triangle
+sign \x25be 36-36-267 ▾ triangle
+sign \x25bf 36-36-267 ▿ triangle
+sign \x25c2 358-36-36 ◂ left triangle
+sign \x25c3 358-36-36 ◃ left triangle
+sign \x25c4 358-36-36 ◄ left triangle
+sign \x25c5 358-36-36 ◅ left triangle
+sign \x25e2 36-36-267 ◢ triangle
+sign \x25e3 36-36-267 ◣ triangle
+sign \x25e4 36-36-267 ◤ triangle
+sign \x25e5 36-36-267 ◥ triangle
+sign \x21d2 36-36-267 ⇒ right arrow
+sign 🔃 358-36-36-267 🔃 right arrow
+sign \x21d4 358-36-36-267 ⇔ left and right arrow
+# square and circle
+sign \x14a0 568-2578-237 ■ filled
+sign \x14a1 568-2578-237 □ square
+sign \x14a3 568-2578-237 ▧ shaded
+sign \x25cb 568-2578-237 ○ circle
+sign \x25ce 568-2578-237 ◎ circle
+sign \x25aa 568-2578-237 ▪ square
+sign \x2611 568-2578-237 ☑ checkbox
+sign \x2756 568-2578-237 ❖ square
+# end misc symbols symbols
 
-# begin IPA(International Phonetic Alphabet)
+# begin IPA(International Phonetic Alphabet) used in Japan
 sign ː 36 colon
 sign ə 38 shwa
 sign ǽ 568-258
-sign ʌ́ 568-578 turned v with acute accent
-sign ɑ́ 568-28 alpha with acute accent
+always ʌ́ 568-578 turned v with acute accent
+always ɑ́ 568-28 alpha with acute accent
 sign è 56-26 e with grave accent
-sign ɔ́ 568-238 open o with acute accent
-sign ó 568-267 o with acute accent
+always ɔ́ 568-238 open o with acute accent
+always ó 568-267 o with acute accent
 sign ʃ 268 esh
-sign ʒ 3578 ezh
+sign \x0292 3578 ʒ ezh
 sign θ 2568 voiceless th sound
-sign ð 23568 voiced th sound
-sign ŋ 2358 eng
+sign \x00f0 23568 ð voiced th sound
+sign \x014b 2358 ŋ eng
+always t̬ 3567
 # end IPA(International Phonetic Alphabet)
-
