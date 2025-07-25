@@ -12,12 +12,9 @@
 
 #-copyright: 2021, Yoza Kensaku
 #-license: LGPLv2.1
-#-author: Yoza Kensaku <ukebear@nirai.ne.jp>
-#-maintainer: Yoza Kensaku<ukebear@nirai.ne.jp>
-
-# Copyright (C) 2021, Yoza Kensaku 
-# Created by Yoza Kensaku <ukebear@nirai.ne.jp>
-
+#-author-name: Yoza Kensaku, Kiriake Masanori
+#-maintainer-name: Yoza Kensaku, Kiriake Masanori
+#-maintainer-email: Yoza Kensaku <ukebear@nirai.ne.jp>, Kiriake Masanori <seiken@rd01.net>
 # This file is part of liblouis.
 #
 # liblouis is free software: you can redistribute it and/or modify it
